@@ -1,0 +1,25 @@
+#container {
+	border: 0px solid red;
+	height: 90vh;
+	width: 90%;
+}
+
+#colsx, #coldx {
+	border: 1px solid black;
+	float: left;
+	width: 20%;
+	height: 100%;
+	padding: 20px;
+}
+
+#coldx {
+	width: calc(78% - 80px);
+}
+
+li {
+	border: 0px solid black;
+	padding-bottom: 10px;
+	list-style-type: square;
+	list-style-position: outside;
+	
+}
